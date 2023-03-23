@@ -4,5 +4,4 @@
 </script>
 
 <Header/>
-Test
 <Footer/>
