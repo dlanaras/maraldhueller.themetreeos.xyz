@@ -1,0 +1,17 @@
+body {
+  background-color: #003f88;
+}
+
+html, body {
+    margin: 0;
+}
+
+* {
+    color: #fdc500;
+    font-family: 'Noto Sans Mono, Regular';
+}
+
+@font-face {
+    font-family: 'Noto Sans Mono, Regular';
+    src: url('NotoSansMono-Regular.ttf');
+}
