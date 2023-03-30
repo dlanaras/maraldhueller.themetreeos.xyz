@@ -9,7 +9,7 @@ html, body {
 * {
     color: #fdc500;
     font-family: 'Noto Sans Mono, Regular';
-    font-display: fallback;
+    font-display: swap;
 }
 
 @font-face {
