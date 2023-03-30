@@ -9,10 +9,10 @@ html, body {
 * {
     color: #fdc500;
     font-family: 'Noto Sans Mono, Regular';
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'Noto Sans Mono, Regular';
     src: url('NotoSansMono-Regular.ttf');
+    font-display: swap;
 }
