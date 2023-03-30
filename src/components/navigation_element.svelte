@@ -12,19 +12,16 @@
 <style>
   a:hover {
     background-color: #003f88;
-    cursor: pointer;
   }
 
   a:link {
     text-decoration: inherit;
     color: inherit;
-    cursor: auto;
   }
 
   a:visited {
     text-decoration: inherit;
     color: inherit;
-    cursor: auto;
   }
 
   a {
