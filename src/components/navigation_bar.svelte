@@ -7,13 +7,17 @@
 
 <div class="{hidden ? 'hide' : ''}{isMobile ? ' nav-mobile' : ''}">
   <NavigationElement />
-  <NavigationElement path="/wireframes" name="Storytelling/ Wireframes" />
   <NavigationElement path="/styleguide" name="Styleguide" />
+  <NavigationElement path="/concept" name="Concept" />
+  <NavigationElement path="/galery" name="Galery" />
   <NavigationElement path="/copyright" name="Copyright" />
-  <NavigationElement path="/licenses" name="Licenses" />
+  <NavigationElement path="/film-project" name="Film Project" />
+  <NavigationElement path="/animations" name="Animations" />
   <NavigationElement path="/image-types" name="Image Filetypes" />
   <NavigationElement path="/video-types" name="Video Filetypes" />
   <NavigationElement path="/audio-types" name="Audio Filetypes" />
+  <NavigationElement path="/reflection" name="Reflection"/>
+  <NavigationElement path="/imprint" name="Imprint" />
 </div>
 
 <style>
