@@ -1,24 +1,38 @@
-<script>
-  import NavigationElement from "./navigation_element.svelte";
+<script lang="ts">
+  import NavigationBar from "./navigation_bar.svelte";
+
+  $: innerHeight = 0;
+  $: innerWidth = 0;
+
+  let hideMobileNav = true;
+
+  function isMobile(h: number, w: number) {
+    return h <= 800 && w <= 1000;
+  }
+
+  function flip() {
+    hideMobileNav = !hideMobileNav;
+  }
 </script>
 
-<div>
-  <NavigationElement />
-  <NavigationElement path="/wireframes" name="Storytelling/ Wireframes" />
-  <NavigationElement path="/styleguide" name="Styleguide" />
-  <NavigationElement path="/copyright" name="Copyright" />
-  <NavigationElement path="/licenses" name="Licenses" />
-  <NavigationElement path="/image-types" name="Image Filetypes" />
-  <NavigationElement path="/video-types" name="Video Filetypes" />
-  <NavigationElement path="/audio-types" name="Audio Filetypes" />
-</div>
+<svelte:window bind:innerHeight bind:innerWidth />
+
+{#if isMobile(innerHeight, innerWidth)}
+  <button on:click={flip}><h3>{hideMobileNav ? "☰" : "🗙"}</h3></button>
+  <NavigationBar hidden={hideMobileNav} isMobile={true} />
+{:else}
+  <NavigationBar isMobile={false} />
+{/if}
 
 <style>
-  div {
-    display: flex;
-    justify-content: space-between;
+  button {
     background-color: #00296b;
-    text-align: center;
     width: 100%;
+    border: 0 none #00296b;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #003f88;
   }
 </style>
