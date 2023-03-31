@@ -1,13 +1,11 @@
 <script lang="ts">
   import NavigationBar from "./navigation_bar.svelte";
-
-  $: innerHeight = 0;
   $: innerWidth = 0;
 
   let hideMobileNav = true;
 
   function isMobile(h: number, w: number) {
-    return h <= 800 && w <= 1000;
+    return w <= 1000;
   }
 
   function flip() {
@@ -15,7 +13,7 @@
   }
 </script>
 
-<svelte:window bind:innerHeight bind:innerWidth />
+<svelte:window bind:innerWidth />
 
 {#if isMobile(innerHeight, innerWidth)}
   <button on:click={flip}><h3>{hideMobileNav ? "☰" : "🗙"}</h3></button>
