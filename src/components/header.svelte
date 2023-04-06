@@ -4,7 +4,7 @@
 
   let hideMobileNav = true;
 
-  function isMobile(h: number, w: number) {
+  function isMobile(w: number) {
     return w <= 1000;
   }
 
@@ -15,7 +15,7 @@
 
 <svelte:window bind:innerWidth />
 
-{#if isMobile(innerHeight, innerWidth)}
+{#if isMobile(innerWidth)}
   <button on:click={flip}><h3>{hideMobileNav ? "☰" : "🗙"}</h3></button>
   <NavigationBar hidden={hideMobileNav} isMobile={true} />
 {:else}
