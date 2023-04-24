@@ -17,6 +17,20 @@
         border: 2px solid black;
     }
 
+    #colourSwaure div div {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        visibility: 0;
+    }
+
+    #colourSwaure div:hover div {
+        transition: 0.5s ease;
+        visibility: 1;
+    }
+
     #colourSquare-primary {
         background-color: #003f88;
     }
@@ -52,10 +66,10 @@
         <h3>Farbschema</h3>
         <p>Ich habe verschiedene Farbkombinationen ausprobiert, bis ich auf die blau-gelbe Kombination gekommen bin, die mich an Ikea erinnert hat. Solche Farbekombination zu verwenden fand ich lustig, also entschied ich mich für diese.</p>
         <div id="colourSquare">
-            <div id="colourSquare-primary"></div>
-            <div id="colourSquare-secondary"></div>
-            <div id="colourSquare-alternative"></div>
-            <div id="colourSquare-secondary-alternative"></div>
+            <div id="colourSquare-primary"><div>#003f88</div></div>
+            <div id="colourSquare-secondary"><div>#00296b</div></div>
+            <div id="colourSquare-alternative"><div>#fdc500</div></div>
+            <div id="colourSquare-secondary-alternative"><div>#ffd500</div></div>
         </div>
         <br>
 
