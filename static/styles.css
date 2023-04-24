@@ -1,9 +1,10 @@
 body {
   background-color: #003f88;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 
 html {
+    position: relative;
     min-height: 100%;
 }
 

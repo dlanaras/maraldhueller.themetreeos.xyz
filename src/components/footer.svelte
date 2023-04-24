@@ -11,6 +11,6 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    height: 10%;
+    height: 7%;
   }
 </style>
