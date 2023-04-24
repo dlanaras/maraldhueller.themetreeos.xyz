@@ -7,7 +7,7 @@
 
 
 <a href={path} class={$page.url.pathname === path ? "active" : ""}>
-  {#if(this.path !== "/")}
+  {#if (this.path !== "/")}
     <h3>{name}</h3>
   {:else}
     <img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo">
