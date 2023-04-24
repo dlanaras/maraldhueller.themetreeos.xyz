@@ -13,6 +13,5 @@
     bottom: 0;
     height: 7%;
     overflow:hidden;
-    margin-top: 7%;
   }
 </style>
