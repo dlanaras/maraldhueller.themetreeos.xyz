@@ -7,9 +7,7 @@
 
 
 <a href={path} class={$page.url.pathname === path ? "active" : ""}>
-
-    <h3>{name}</h3>
-
+  <h3>{name}</h3>
 </a>
 
 
