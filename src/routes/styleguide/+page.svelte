@@ -5,6 +5,8 @@
 
 <style>
     #colourSquare {
+        width: 100%;
+        height: 200px;
         display: flex;
         flex-direction: row;
         border: 2px solid black;
@@ -12,18 +14,22 @@
 
     #colourSquare-primary {
         background-color: #003f88;
+        height: 100%
     }
 
     #colourSquare-secondary {
         background-color: #00296b;
+        height: 100%
     }
 
     #colourSquare-alternative {
         background-color: #fdc500;
+        height: 100%
     }
 
     #colourSquare-secondary-alternative {
         background-color: #ffd500;
+        height: 100%
     }
 </style>
 
