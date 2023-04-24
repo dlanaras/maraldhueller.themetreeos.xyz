@@ -22,7 +22,7 @@
         background-color: #fdc500;
     }
 
-    #colourSquare-seondary-alternative {
+    #colourSquare-secondary-alternative {
         background-color: #ffd500;
     }
 </style>
@@ -58,7 +58,7 @@
         <br>
 
         <h3>Website Logo</h3>
-        <img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo">
+        <!--img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo"-->
         <p></p>
         <br>
 

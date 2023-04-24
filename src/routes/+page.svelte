@@ -4,6 +4,6 @@
 </script>
 
 <Header/>
-<img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo">
+<!--img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo"-->
 
 <Footer/>

@@ -10,7 +10,7 @@
   {#if (this.path !== "/")}
     <h3>{name}</h3>
   {:else}
-    <img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo">
+    <!--img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo"-->
   {/if}
 </a>
 
