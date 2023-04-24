@@ -35,11 +35,11 @@
     <div>
         <h3>Wireframes</h3>
         <p>Für die Desktop Ansicht dieser Website hatte ich ein minimalistisches Design geplant:</p>
-        <img src="%sveltekit.assets%/wireframe-m152-dimitrios.drawio.png" alt="desktop version wireframe">
+        <!--img src="%sveltekit.assets%/wireframe-m152-dimitrios.drawio.png" alt="desktop version wireframe"-->
         <br>
 
         <p>Da ich bisher nur Websites für PC-Benutzer erstellt hatte, wollte ich versuchen, auch eine Handy-Version zu erstellen:</p>
-        <img src="%sveltekit.assets%/wireframe-m152-mobile-dimitrios.drawio.png" alt="mobile version wireframe">
+        <!--img src="%sveltekit.assets%/wireframe-m152-mobile-dimitrios.drawio.png" alt="mobile version wireframe"-->
         <br>
 
         <h3>Farbschema</h3>
