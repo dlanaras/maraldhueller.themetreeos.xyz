@@ -12,5 +12,6 @@
     position: absolute;
     bottom: 0;
     height: 7%;
+    overflow:hidden;
   }
 </style>
