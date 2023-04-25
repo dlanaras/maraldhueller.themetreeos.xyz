@@ -23,12 +23,13 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        visibility: 0;
+        visibility: none;
+        color: black;
     }
 
-    #colourSwaure div:hover div {
+    #colourSwaure div div:hover {
         transition: 0.5s ease;
-        visibility: 1;
+        visibility: visible;
     }
 
     #colourSquare-primary {
