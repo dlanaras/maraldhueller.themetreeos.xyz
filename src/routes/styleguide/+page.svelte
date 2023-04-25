@@ -1,6 +1,16 @@
 <script>
-    import Header from '../../components/header.svelte'
+    import Header from '../../components/header.svelte';
     import Footer from '../../components/footer.svelte';
+    import saveAs from 'file-saver';
+    import { onMount } from 'svelte';
+
+    let url = ``;
+
+    onMount(() => url = window.location.origin);
+
+    function promptDownload() {
+        saveAs(`${url}/styleguide-template`, "styleguide-template.html"); //TODO: return file on nginx route /styleguide-template
+    }
 </script>
 
 <style>
@@ -11,24 +21,25 @@
         flex-direction: row;
     }
 
-    #colourSquare div {
+    .colour {
         height: 100%;
         width: 25%;
         border: 2px solid black;
     }
 
-    #colourSwaure div div {
+    .colour div {
+        display: flex;
         height: 100%;
         width: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
-        visibility: none;
-        color: black;
+        visibility: hidden;
+        background-color: #000000a0;
     }
 
-    #colourSwaure div div:hover {
-        transition: 0.5s ease;
+    .colour:hover div {
+        transition: 1s ease;
         visibility: visible;
     }
 
@@ -50,7 +61,7 @@
 </style>
 
 <Header/>
-<div>
+<div id="content">
     <div>
         <h2>Styleguide</h2>
     </div>
@@ -67,10 +78,10 @@
         <h3>Farbschema</h3>
         <p>Ich habe verschiedene Farbkombinationen ausprobiert, bis ich auf die blau-gelbe Kombination gekommen bin, die mich an Ikea erinnert hat. Solche Farbekombination zu verwenden fand ich lustig, also entschied ich mich für diese.</p>
         <div id="colourSquare">
-            <div id="colourSquare-primary"><div>#003f88</div></div>
-            <div id="colourSquare-secondary"><div>#00296b</div></div>
-            <div id="colourSquare-alternative"><div>#fdc500</div></div>
-            <div id="colourSquare-secondary-alternative"><div>#ffd500</div></div>
+            <div id="colourSquare-primary" class="colour"><div>#003f88</div></div>
+            <div id="colourSquare-secondary" class="colour"><div>#00296b</div></div>
+            <div id="colourSquare-alternative" class="colour"><div>#fdc500</div></div>
+            <div id="colourSquare-secondary-alternative" class="colour"><div>#ffd500</div></div>
         </div>
         <br>
 
@@ -97,7 +108,7 @@
         <br>
 
         <h3>Styleguide Exemplar</h3>
-        <!--TODO: add npm save-as package to prompt download-->
+        <button on:click={promptDownload}>Download</button>
     </div>
 </div>
 <Footer/>

@@ -4,5 +4,9 @@
 </script>
 
 <Header/>
-Test
+<div id="content">
+    <div>
+        <h2>Konzept</h2>
+    </div>
+</div>
 <Footer/>

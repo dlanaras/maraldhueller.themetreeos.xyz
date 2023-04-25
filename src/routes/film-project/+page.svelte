@@ -4,4 +4,9 @@
 </script>
 
 <Header/>
+<div id="content">
+    <div>
+        <h2>Film Projekt</h2>
+    </div>
+</div>
 <Footer/>

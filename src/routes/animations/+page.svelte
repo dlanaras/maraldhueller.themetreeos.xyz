@@ -4,4 +4,9 @@
 </script>
 
 <Header/>
+<div id="content">
+    <div>
+        <h2>Animationen</h2>
+    </div>
+</div>
 <Footer/>

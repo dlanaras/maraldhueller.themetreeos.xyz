@@ -4,4 +4,9 @@
 </script>
 
 <Header/>
+<div id="content">
+    <div>
+        <h2>Urheberechte</h2>
+    </div>
+</div>
 <Footer/>

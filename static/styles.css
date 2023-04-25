@@ -10,6 +10,25 @@ html {
 
 html, body {
     margin: 0;
+    height: 86%;
+}
+
+#content {
+    margin-left: 25%;
+    margin-right: 25%;
+    min-height: 100%;
+}
+
+@media (max-width: 1000px) {
+    #content {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+#footer {
+    position: static;
+    padding: 2% 0;
 }
 
 * {
@@ -21,4 +40,10 @@ html, body {
     font-family: 'Noto Sans Mono, Regular';
     src: url('NotoSansMono-Regular.ttf');
     font-display: swap;
+}
+
+button {
+    background-color: #00296b;
+    border: 0 none transparent;
+    padding: 1% 2%;
 }
