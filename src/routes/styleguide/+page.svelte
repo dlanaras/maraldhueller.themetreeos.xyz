@@ -59,6 +59,11 @@
     #colourSquare-secondary-alternative {
         background-color: #ffd500;
     }
+ 
+    button:hover {
+        background-color: #003f88;
+        cursor: pointer;
+    }
 </style>
 
 {#if url === ""}
