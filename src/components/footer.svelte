@@ -1,7 +1,7 @@
 <div id="footer">
-  <h4>Modul 152</h4>
-  <h4>Dimitrios Lanaras</h4>
-  <h4>🄯 {new Date().getFullYear()}</h4>
+  <h5>Modul 152</h5>
+  <h5>Dimitrios Lanaras</h5>
+  <h5>🄯 {new Date().getFullYear()}</h5>
 </div>
 
 <style>
