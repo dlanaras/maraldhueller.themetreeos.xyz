@@ -59,11 +59,6 @@
     #colourSquare-secondary-alternative {
         background-color: #ffd500;
     }
-
-    #download-butt:hover {
-        opacity: 0.9;
-        cursor: pointer;
-    }
 </style>
 
 {#if url === ""}
@@ -77,11 +72,11 @@
         <div>
             <h3>Wireframes</h3>
             <p>Für die Desktop Ansicht dieser Website hatte ich ein minimalistisches Design geplant:</p>
-            <!--img src="%sveltekit.assets%/wireframe-m152-dimitrios.drawio.png" alt="desktop version wireframe"-->
+            <img src="wireframe-m152-dimitrios.drawio.png" alt="desktop version wireframe">
             <br>
 
             <p>Da ich bisher nur Websites für PC-Benutzer erstellt hatte, wollte ich versuchen, auch eine Handy-Version zu erstellen:</p>
-            <!--img src="%sveltekit.assets%/wireframe-m152-mobile-dimitrios.drawio.png" alt="mobile version wireframe"-->
+            <img src="wireframe-m152-mobile-dimitrios.drawio.png" alt="mobile version wireframe">
             <br>
 
             <h3>Farbschema</h3>
@@ -94,31 +89,43 @@
             </div>
             <br>
 
-            <h3>Schriftart und -grösse</h3>
+            <h3>Schriftart und -Grösse</h3>
             <p>Schriftart: Noto-Sans-Mono-Regular</p>
-            <!--div>List of font sizes used</div-->
+            <p>Schriftgrössen: </p>
+                <ul>
+                    <li>Seiten-Überschrift: {'<h2>'} (1.5 em) </li>
+                    <li>Navbar Überschriften und Seite Unterüberschrifte: {'<h3>'} (1.3 em)</li>
+                    <li>P-Elemente und Text direkt im HTML: (1 em)</li>
+                    <li>Footer Überschrifte: {'<h4>'} (1 em)</li>
+                </ul>
             <br>
 
             <h3>Website Logo</h3>
-            <!--img src="%sveltekit.assets%/logo.png" alt="maraldhueller logo"-->
-            <p></p>
+            <img src="hm-logo.png" alt="maraldhueller logo" width="64px" height="64px">
+            <p>Dieses Logo habe ich selbständig mit Krita gezeichnet und es verwendet die beide Farben: #003f88 und #fdc500, also die primäre (Blau) und die Sekundäre Farbe der Website (Gelb). Das Design vom Logo ist sehr minimalistisch, genau so wie dieser Website.</p>
             <br>
 
             <h3>Icons und Hover-Effekte</h3>
-            <!--div>List of icons</div-->
-            <p></p>
-            <!--div>List of Hover-Effekte</div-->
-            <p></p>
+            <p>Für meine Website habe ich folgende Icons verwendet: </p>
+            <ul>
+                <li>Copyleft Symbol für Lizenz: 🄯</li>
+                <!--li>TODO: List of icons</li-->
+            </ul>
+            <p>Hover-Effekte, die ich verwendet habe sind folgende: </p>
+            <ul>
+                <li>Bei Buttons: cursor: pointer und Hintergrund-Farbe zu #003f88 wechseln</li>
+                <li>Speziall für diese Seite bei den colourSquares: ausgeblendete Div-Elemente mit Schwarze Hintergrunde und den HEX-Wert der Farbe werden eingeblendet</li>
+            </ul>
             <br>
 
             <h3>Abstände</h3>
-            <!--div>List of spaces used</div-->
-            <p></p>
+            <p>Bei den verschiedenen Seiten werden h3-Elemente mit einen Br-Element getrennt. Die restliche Abstände werden implizit mit Flexbox gemacht</p>
             <br>
 
             <h3>Styleguide Exemplar</h3>
             <button on:click={promptDownload} id="download-butt">Download</button>
         </div>
     </div>
+    <br>
     <Footer/>
 {/if}

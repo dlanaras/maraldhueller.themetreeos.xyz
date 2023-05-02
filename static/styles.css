@@ -47,3 +47,8 @@ button {
     border: 0 none transparent;
     padding: 1% 2%;
 }
+
+button:hover {
+    background-color: #003f88;
+    cursor: pointer;
+}
