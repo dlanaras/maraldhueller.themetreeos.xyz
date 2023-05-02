@@ -10,7 +10,7 @@
     onMount(() => url = window.location.origin);
 
     function promptDownload() {
-        saveAs(`${url}/styleguide-template`, "styleguide-template.html"); //TODO: return file on nginx route /styleguide-template
+        saveAs(`${url}/styleguide-template.html`, "styleguide-template.html"); //TODO: return file on nginx route /styleguide-template
     }
 </script>
 
