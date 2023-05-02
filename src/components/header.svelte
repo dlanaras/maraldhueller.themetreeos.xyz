@@ -1,11 +1,6 @@
 <script lang="ts">
   import { fly } from 'svelte/transition';
   import NavigationBar from "./navigation_bar.svelte";
-  import { onMount } from 'svelte';
-
-  let ready = false;
-   
-  onMount(() => ready = true);
 
   $: innerWidth = 0;
 
@@ -23,7 +18,8 @@
 <svelte:window bind:innerWidth />
 
 {#if isMobile(innerWidth)}
-  <button on:click={flip}>
+  <label for="Navbar Button"></label>
+  <button on:click={flip} class="navbar-button">
     {#if hideMobileNav}
     <svg
       in:fly={{ y: -20 }}
