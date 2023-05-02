@@ -18,8 +18,7 @@
 <svelte:window bind:innerWidth />
 
 {#if isMobile(innerWidth)}
-  <label for="Navbar Button"></label>
-  <button on:click={flip} class="navbar-button">
+  <button on:click={flip} aria-label="Navbar Button">
     {#if hideMobileNav}
     <svg
       in:fly={{ y: -20 }}
