@@ -59,6 +59,11 @@
     #colourSquare-secondary-alternative {
         background-color: #ffd500;
     }
+
+    #download-butt:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
 </style>
 
 {#if url === ""}
@@ -112,7 +117,7 @@
             <br>
 
             <h3>Styleguide Exemplar</h3>
-            <button on:click={promptDownload}>Download</button>
+            <button on:click={promptDownload} id="download-butt">Download</button>
         </div>
     </div>
     <Footer/>
