@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Header from '../../components/header.svelte';
     import Footer from '../../components/footer.svelte';
     import Loading from '../../components/loading.svelte';
@@ -9,8 +9,8 @@
 
     onMount(() => url = window.location.origin);
 
-    function promptDownload() {
-        saveAs(`${url}/styleguide-template.html`, "styleguide-template.html"); //TODO: return file on nginx route /styleguide-template
+    function promptDownload(file: string): void {
+        saveAs(`${url}/${file}`, file); //TODO: return file on nginx route /styleguide-template
     }
 </script>
 
@@ -119,11 +119,12 @@
             <br>
 
             <h3>Abstände</h3>
-            <p>Bei den verschiedenen Seiten werden h3-Elemente mit einen Br-Element getrennt. Die restliche Abstände werden implizit mit Flexbox gemacht</p>
+            <p>Bei den verschiedenen Seiten werden h3-Elemente mit einen Br-Element getrennt. Die restliche Abstände werden implizit oder explizit mit Flexbox gemacht</p>
             <br>
 
             <h3>Styleguide Exemplar</h3>
-            <button on:click={promptDownload} id="download-butt">Download</button>
+            <button on:click={() => promptDownload("styleguide-template.html")}>Exemplar herunterladen</button>
+            <button on:click={() => promptDownload("NotoSansMono-Regular.ttf")}>Schriftart herunterladen</button>
         </div>
     </div>
     <br>
