@@ -1,7 +1,12 @@
 <script lang="ts">
   import { fly } from 'svelte/transition';
   import NavigationBar from "./navigation_bar.svelte";
+  import { onMount } from 'svelte';
+
+  let ready = false;
    
+  onMount(() => ready = true);
+
   $: innerWidth = 0;
 
   let hideMobileNav = true;
