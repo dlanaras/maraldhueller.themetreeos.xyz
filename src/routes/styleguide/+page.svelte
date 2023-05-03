@@ -100,6 +100,7 @@
                 <ul>
                     <li>Seiten-Überschrift: {'<h2>'} (1.5 em) </li>
                     <li>Navbar Überschriften und Seite Unterüberschrifte: {'<h3>'} (1.3 em)</li>
+                    <li>DT-Elemente: 1.3em</li>
                     <li>P-Elemente und Text direkt im HTML: (1 em)</li>
                     <li>Footer Überschrifte: {'<h4>'} (1 em)</li>
                 </ul>
