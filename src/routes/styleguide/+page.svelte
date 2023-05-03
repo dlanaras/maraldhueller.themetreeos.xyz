@@ -115,7 +115,6 @@
             <p>Für meine Website habe ich folgende Icons verwendet: </p>
             <ul>
                 <li>Copyleft Symbol für Lizenz: 🄯</li>
-                <!--li>TODO: List of icons</li-->
             </ul>
             <p>Hover-Effekte, die ich verwendet habe sind folgende: </p>
             <ul>
