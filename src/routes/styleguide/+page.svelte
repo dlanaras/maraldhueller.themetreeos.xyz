@@ -75,15 +75,6 @@
             <h2>Styleguide</h2>
         </div>
         <div>
-            <h3>Wireframes</h3>
-            <p>Für die Desktop Ansicht dieser Website hatte ich ein minimalistisches Design geplant:</p>
-            <img src="wireframe-m152-dimitrios.drawio.png" alt="desktop version wireframe">
-            <br>
-
-            <p>Da ich bisher nur Websites für PC-Benutzer erstellt hatte, wollte ich versuchen, auch eine Handy-Version zu erstellen:</p>
-            <img src="wireframe-m152-mobile-dimitrios.drawio.png" alt="mobile version wireframe">
-            <br>
-
             <h3>Farbschema</h3>
             <p>Ich habe verschiedene Farbkombinationen ausprobiert, bis ich auf die blau-gelbe Kombination gekommen bin, die mich an Ikea erinnert hat. Solche Farbekombination zu verwenden fand ich lustig, also entschied ich mich für diese.</p>
             <div id="colourSquare">

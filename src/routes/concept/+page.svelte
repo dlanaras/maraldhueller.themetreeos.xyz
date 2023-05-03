@@ -16,6 +16,16 @@
 <div id="content">
     <div>
         <h2>Konzept</h2>
+        <h3>Wireframes</h3>
+        <p>Für die Desktop Ansicht dieser Website hatte ich ein minimalistisches Design geplant:</p>
+        <img src="wireframe-m152-dimitrios.drawio.png" alt="desktop version wireframe">
+        <br>
+
+        <p>Da ich bisher nur Websites für PC-Benutzer erstellt hatte, wollte ich versuchen, auch eine Handy-Version zu erstellen:</p>
+        <img src="wireframe-m152-mobile-dimitrios.drawio.png" alt="mobile version wireframe">
+        <br>
+        <h3>Zeitplanung</h3>
+        <!--img TODO: Zeitplanung -->
     </div>
 </div>
 <Footer/>
