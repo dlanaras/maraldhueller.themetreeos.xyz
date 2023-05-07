@@ -19,7 +19,7 @@
         <h2>Hauptseite</h2>
     </div>
     <div class="img">
-        <img src="hm-logo.jpg" alt="maraldhueller logo" width="512px">
+        <img src="hm-logo.jpg" alt="maraldhueller logo" width="512px" height="512px">
         <h3>MaraldHueller</h3>
         <h3>.</h3>
         <h3>TheMeTreeOs</h3>

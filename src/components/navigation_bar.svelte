@@ -13,9 +13,8 @@
   <NavigationElement path="/copyright" name="Copyright" />
   <NavigationElement path="/film-project" name="Film Project" />
   <NavigationElement path="/animations" name="Animations" />
-  <NavigationElement path="/image-types" name="Image Filetypes" />
-  <NavigationElement path="/video-types" name="Video Filetypes" />
-  <NavigationElement path="/audio-types" name="Audio Filetypes" />
+  <NavigationElement path="/file-types" name="Filetypes" />
+  <NavigationElement path="/cookies" name="Cookies" />
   <NavigationElement path="/reflection" name="Reflection"/>
   <NavigationElement path="/imprint" name="Imprint" />
 </div>

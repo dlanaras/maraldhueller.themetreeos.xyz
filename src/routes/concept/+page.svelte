@@ -25,8 +25,14 @@
         <img src="wireframe-m152-mobile-dimitrios.drawio.png" alt="mobile version wireframe">
         <br>
         <h3>Zeitplanung</h3>
-        <!--img TODO: Zeitplanung -->
+        <img src="zeitplan-dimitrios-lanaras-m152.png" alt="Zeitplan Dimitrios Lanaras m152">
     </div>
 </div>
 <Footer/>
 {/if}
+
+<style>
+    img {
+        max-width: 100%;
+    }
+</style>

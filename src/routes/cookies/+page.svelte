@@ -15,7 +15,7 @@
 <Header/>
 <div id="content">
     <div>
-        <h2>Video Formate</h2>
+        <h2>DSGVO/ Cookies</h2>
     </div>
 </div>
 <Footer/>
