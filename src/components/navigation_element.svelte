@@ -10,7 +10,7 @@
   {#if (path !== "/")}
   <h3>{name}</h3>
   {:else}
-  <img src="hm-logo.png" alt="HM logo" width="48px" height="48px">
+  <img src="hm-logo.jpg" alt="HM logo" width="48px" height="48px">
   {/if}
 </a>
 

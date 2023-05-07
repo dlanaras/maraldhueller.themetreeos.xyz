@@ -98,7 +98,7 @@
             <br>
 
             <h3>Website Logo</h3>
-            <img src="hm-logo.png" alt="maraldhueller logo" width="64px" height="64px">
+            <img src="hm-logo.jpg" alt="maraldhueller logo" width="64px" height="64px">
             <p>Dieses Logo habe ich selbständig mit Krita gezeichnet und es verwendet die beide Farben: #003f88 und #fdc500, also die primäre (Blau) und die Sekundäre Farbe der Website (Gelb). Das Design vom Logo ist sehr minimalistisch, genau so wie dieser Website.</p>
             <br>
 
