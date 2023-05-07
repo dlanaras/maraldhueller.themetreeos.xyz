@@ -27,7 +27,8 @@
         <br>
         <h2>Lizenzen</h2>
         <h3>Was sind und bedeuten Copyrights im Internet und wer hat welche Copyrights auf Ihrem Internetauftritt</h3>
-        <p>Einfach erklärt sagen Copyrights zu welche Person(en) ein Werk gehört. Wer welche Copyrights auf ihrem Internetauftritt hat werden gesetzlich reguliert.</p>
+        <p>Einfach erklärt sagen Copyrights zu welche Person(en) ein Werk gehört. Wer welche Copyrights auf ihrem Internetauftritt hat werden gesetzlich reguliert.
+            Eigene Werke auf seiner Website kann er durch Lizenzen regeln.</p>
         <br>
         <h3>Was sind und bedeuten Lizenzen im Internet?</h3>
         <p>Lizenzen sind kurzgesagt mehrere Nutzungs- oder Weiterverbreitungsregel für ein Produkt (z.B: Source Code eines Projekts oder Bilder). Diese sind im Internet besonders wichtig,
