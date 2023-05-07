@@ -56,3 +56,27 @@ button:hover {
 dt {
     font-size: 1.3em;
 }
+
+#cookie-banner {
+    flex-direction: column;
+    z-index: 100;
+    position: absolute;
+    background-color: #00296b;
+    bottom: 0;
+    width: 100%;
+}
+
+#cookie-banner p {
+    padding: 0 2%;
+}
+
+#cookie-banner .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.buttons button {
+    width: 100%;
+}
