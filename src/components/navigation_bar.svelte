@@ -9,7 +9,6 @@
   <NavigationElement />
   <NavigationElement path="/styleguide" name="Styleguide" />
   <NavigationElement path="/concept" name="Concept" />
-  <NavigationElement path="/galery" name="Galery" />
   <NavigationElement path="/copyright" name="Copyright" />
   <NavigationElement path="/film-project" name="Film Project" />
   <NavigationElement path="/animations" name="Animations" />
