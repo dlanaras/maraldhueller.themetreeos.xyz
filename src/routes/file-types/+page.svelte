@@ -112,6 +112,41 @@
         </div>
         <br>
         <p>Die Qualität ist sehr slecht, aber beide Dateien sind nur kB gross.</p>
+        <br>
+        
+        <h3>Video Formate</h3>
+        <p>Das ist ein ganz normales Video das in FHD gedreht und als .mp4 gespeichert wurde. MP4 steht für MPEG-4 und MPEG steht für Moving Pictures Experts Group.
+            Dieser ist der am meisten verbreiteter Video-Dateityp. Da es bei MP4 viel komprimiert werden darf kann man damit Videos mit sehr kleine Dateigrössen haben.
+            MP4s erlauben ansonsten noch die Anwendung von Metadaten. Ein grosses Nachteil ist, dass es bei der Komprimierung immer Qualität verlieren wird (Abhängig von wie viel komprimiert wird).
+        </p>
+        <div class="video-flex">
+            <video controls>
+                <source src="cool-rgb-video.mp4"  type="video/mp4">
+                <track kind="captions">
+            </video> 
+            <p>cool-rgb-video.mp4 18.6MB</p>
+        </div>
+        <p>Ogg kommt aus den Wort ogging, das ein Jargon aus dem Spiel Netrek ist (ogging bedeutet: einfach etwas tun ohne auf die zukunftige Resourcen zu achten).
+            Es ist ein Open Source Container-Dateiformat (Mischt mehrere Datentypen zusammen, in diesem Fall Audio, Metadaten und Video). Es wird oft für Videos mit kleine Bit-Rates verwendet
+            und vorallem bei Websites und Video-Games.
+        </p>
+        <div class="video-flex">
+            <video controls>
+                <source src="cool-rgb-video.ogv" type="video/ogg">
+                <track kind="captions">
+            </video> 
+            <p>cool-rgb-video.ogv 2.4MB</p>
+        </div>
+        <p>Webm steh für Web Movie und ist ein neues Containerformat (2010) das von Google gesponsert wurde (wurde von On2, Wiph und Matroska entwickelt) und dient als Alternative zu MPEG.
+            Wie schon bei der Name angetönt soll dies grösstenteils bei Websites verwendet werden. Ausserhalb von Webistes wird dieses Dateiformat nicht oft unterstützt und deswegen dafür nicht verwendet.
+        </p>
+        <div class="video-flex">
+            <video controls>
+                <source src="cool-rgb-video.webm"  type="video/webm">
+                <track kind="captions">
+            </video> 
+            <p>cool-rgb-video.webm 6.8MB</p>
+        </div>
     </div>
 </div>
 <Footer/>
@@ -122,12 +157,16 @@
         width: 300px;
     }
 
+    video {
+        width: 50%;
+    }
+
     .flex {
         display: flex;
         justify-content: space-around;
     }
 
-    .flex div {
+    .flex div, .video-flex {
         display: flex;
         flex-direction: column;
         align-items: center;
