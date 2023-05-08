@@ -17,7 +17,7 @@
     <div>
         <h2>Film Projekt</h2>
         <h3>Cool RGB Video</h3>
-        <video controls autoplay>
+        <video controls autoplay loop>
             <source src="cool-rgb-video.mp4" type="video/mp4">
             <track kind="captions">
         </video>

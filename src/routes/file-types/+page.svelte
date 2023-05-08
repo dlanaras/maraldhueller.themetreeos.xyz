@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Header from '../../components/header.svelte'
     import Footer from '../../components/footer.svelte';
     import Loading from '../../components/loading.svelte';
@@ -7,6 +7,12 @@
     let ready = false;
 
     onMount(() => ready = true)
+
+    function reduceVolume() {
+        let audioElements = document.querySelectorAll("#autoplay-audio");
+
+        audioElements.forEach(a => (a as HTMLAudioElement).volume = 0.05);
+    } 
 </script>
 
 {#if !ready}
@@ -147,6 +153,25 @@
             </video> 
             <p>cool-rgb-video.webm 6.8MB</p>
         </div>
+        <br>
+
+        <h3>Ton Formate</h3>
+        <div class="audio-flex">
+            <p>sky-high.mp3 9.5 MB. Ähnlich wie mit mp4 komprimiert mp3 die Daten um eine geringere Dateigrösse zu schaffen. Es verliert dabei aber seine Qualität.</p>
+            <audio src="sky-high.mp3" autoplay controls loop on:play={() => reduceVolume()} id="autoplay-audio"></audio>
+            <p>Song: Elektronomia - Sky High [NCS Release]
+                Music provided by NoCopyrightSounds
+                Free Download/Stream: http://ncs.io/skyhigh
+                Watch: http://youtu.be/TW9d8vYrVFQ</p>
+            <br>
+
+            <p>ark.wav  7.9MB. Das Waveform Audio File Format oder WAV/WAVE ist ein einfacher Dateityp der keine Komprimierung verwendet. Er kann die originale Qualität behalten aber wird schnell sehr gross.</p>
+            <audio src="ark.wav" controls loop on:play={() => reduceVolume()} id="autoplay-audio"></audio>
+            <p>Song: Ship Wrek & Zookeepers - Ark [NCS Release]
+                Music provided by NoCopyrightSounds
+                Free Download/Stream: http://ncs.io/ark
+                Watch: http://youtu.be/8xlDwukxjnA</p>
+        </div>
     </div>
 </div>
 <Footer/>
@@ -166,7 +191,7 @@
         justify-content: space-around;
     }
 
-    .flex div, .video-flex {
+    .flex div, .video-flex, .audio-flex {
         display: flex;
         flex-direction: column;
         align-items: center;
