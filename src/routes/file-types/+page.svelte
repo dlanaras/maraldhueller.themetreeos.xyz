@@ -165,7 +165,7 @@
                 Watch: http://youtu.be/TW9d8vYrVFQ</p>
             <br>
 
-            <p>ark.wav  7.9MB. Das Waveform Audio File Format oder WAV/WAVE ist ein einfacher Dateityp der keine Komprimierung verwendet. Er kann die originale Qualität behalten aber wird schnell sehr gross.</p>
+            <p>ark.wav  15.8MB. Das Waveform Audio File Format oder WAV/WAVE ist ein einfacher Dateityp der keine Komprimierung verwendet. Er kann die originale Qualität behalten aber wird schnell sehr gross.</p>
             <audio src="ark.wav" controls loop on:play={() => reduceVolume()} id="autoplay-audio"></audio>
             <p>Song: Ship Wrek & Zookeepers - Ark [NCS Release]
                 Music provided by NoCopyrightSounds
